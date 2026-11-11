@@ -189,3 +189,16 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.A
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\RabbitMQ.Client.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\EventBus.Messages.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\EventBus.Messages.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\obj\Debug\net10.0\Ordering.Api.sourcelink.json
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\Microsoft.Extensions.Configuration.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\Microsoft.Extensions.Configuration.Json.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\Microsoft.Extensions.FileProviders.Physical.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\Microsoft.Extensions.Primitives.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\System.IO.Pipelines.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\System.Text.Encodings.Web.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\System.Text.Json.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Api\bin\Debug\net10.0\runtimes\browser\lib\net10.0\System.Text.Encodings.Web.dll

@@ -9,3 +9,4 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Mess
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\obj\Debug\net10.0\refint\EventBus.Messages.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\obj\Debug\net10.0\EventBus.Messages.pdb
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\obj\Debug\net10.0\ref\EventBus.Messages.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\obj\Debug\net10.0\EventBus.Messages.sourcelink.json

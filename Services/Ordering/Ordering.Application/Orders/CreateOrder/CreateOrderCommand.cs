@@ -17,19 +17,21 @@ public record CreateOrderCommand(
     string CardNumber,
     string Cvv,
     string Expiration,
-    int PaymentMethod):ICommand<int>;
+    int PaymentMethod,
+    Guid CorrelationId
+) : IRequest<int>;
 
 public class CreateOrderCommandValidator : AbstractValidator<CreateOrderCommand>
 {
     public CreateOrderCommandValidator()
     {
-       RuleFor(x => x.UserName)
+        RuleFor(x => x.UserName)
             .NotEmpty().WithMessage("Username is required.")
             .MaximumLength(70).WithMessage("Username must not exceed 70 characters.");
 
         RuleFor(x => x.TotalPrice)
             .GreaterThan(0).WithMessage("Total Price must be greater than zero.");
-        
+
         RuleFor(x => x.FirstName)
             .NotEmpty().WithMessage("First Name is required.")
             .MaximumLength(50).WithMessage("First Name must not exceed 50 characters.");
@@ -65,7 +67,9 @@ public class CreateOrderCommandValidator : AbstractValidator<CreateOrderCommand>
 
         RuleFor(x => x.CardNumber)
             .NotEmpty().WithMessage("Card Number is required.")
-            .CreditCard().WithMessage("Card Number is not a valid credit card format."); // يمكنك استخدام CreditCard() المدمجة أو RegularExpression
+            .CreditCard()
+            .WithMessage(
+                "Card Number is not a valid credit card format."); // يمكنك استخدام CreditCard() المدمجة أو RegularExpression
 
         RuleFor(x => x.Cvv)
             .NotEmpty().WithMessage("CVV is required.")

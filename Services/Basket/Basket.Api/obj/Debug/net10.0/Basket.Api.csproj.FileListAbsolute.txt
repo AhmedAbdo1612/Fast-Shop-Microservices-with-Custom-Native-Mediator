@@ -14,6 +14,11 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\b
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Grpc.Net.Client.Web.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Grpc.Net.ClientFactory.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Grpc.Net.Common.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Mapster.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Mapster.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\MassTransit.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\MassTransit.Abstractions.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\MassTransit.RabbitMqTransport.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\MediatR.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\MediatR.Contracts.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
@@ -24,6 +29,7 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\b
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Microsoft.OpenApi.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Pipelines.Sockets.Unofficial.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\RabbitMQ.Client.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\StackExchange.Redis.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -31,6 +37,8 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\b
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Basket.Application.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Basket.Core.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Basket.Infrastructure.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\EventBus.Messages.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\EventBus.Messages.pdb
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Basket.Application.pdb
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Basket.Infrastructure.pdb
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Basket.Core.pdb
@@ -42,6 +50,7 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\o
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\obj\Debug\net10.0\Basket.Api.csproj.CoreCompileInputs.cache
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\obj\Debug\net10.0\Basket.Api.MvcApplicationPartsAssemblyInfo.cs
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\obj\Debug\net10.0\Basket.Api.MvcApplicationPartsAssemblyInfo.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\obj\Debug\net10.0\Basket.Api.sourcelink.json
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\obj\Debug\net10.0\rjimswa.dswa.cache.json
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -57,11 +66,3 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\o
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\obj\Debug\net10.0\Basket.Api.pdb
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\obj\Debug\net10.0\Basket.Api.genruntimeconfig.cache
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\obj\Debug\net10.0\ref\Basket.Api.dll
-E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Mapster.dll
-E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Mapster.Core.dll
-E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\MassTransit.dll
-E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\MassTransit.Abstractions.dll
-E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\MassTransit.RabbitMqTransport.dll
-E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\RabbitMQ.Client.dll
-E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\EventBus.Messages.dll
-E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\EventBus.Messages.pdb

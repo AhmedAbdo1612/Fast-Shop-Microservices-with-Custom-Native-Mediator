@@ -485,7 +485,8 @@
           "Grpc.AspNetCore": "2.85.0",
           "Grpc.Net.Client.Web": "2.85.0",
           "Mapster": "10.0.14",
-          "MassTransit.Abstractions": "9.2.6",
+          "MassTransit": "8.3.6",
+          "MassTransit.RabbitMQ": "8.3.6",
           "MediatR": "14.2.0"
         },
         "compile": {

@@ -924,9 +924,13 @@
               "target": "Package",
               "version": "[10.0.14, )"
             },
-            "MassTransit.Abstractions": {
+            "MassTransit": {
               "target": "Package",
-              "version": "[9.2.6, )"
+              "version": "[8.3.6, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.3.6, )"
             },
             "MediatR": {
               "target": "Package",

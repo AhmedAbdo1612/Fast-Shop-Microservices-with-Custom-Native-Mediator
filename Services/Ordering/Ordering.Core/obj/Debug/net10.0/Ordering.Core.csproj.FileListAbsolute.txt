@@ -9,3 +9,4 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.C
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\obj\Debug\net10.0\refint\Ordering.Core.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\obj\Debug\net10.0\Ordering.Core.pdb
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\obj\Debug\net10.0\ref\Ordering.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\obj\Debug\net10.0\Ordering.Core.sourcelink.json

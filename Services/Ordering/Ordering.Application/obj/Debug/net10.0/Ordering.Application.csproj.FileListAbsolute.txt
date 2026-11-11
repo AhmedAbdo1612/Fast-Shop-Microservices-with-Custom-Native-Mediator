@@ -15,3 +15,6 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.A
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\obj\Debug\net10.0\ref\Ordering.Application.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\bin\Debug\net10.0\Ordering.Core.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\bin\Debug\net10.0\Ordering.Core.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\obj\Debug\net10.0\Ordering.Application.sourcelink.json
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\bin\Debug\net10.0\EventBus.Messages.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\bin\Debug\net10.0\EventBus.Messages.pdb

@@ -1,7 +1,11 @@
 ﻿using System.Reflection;
+using EventBus.Messages.Common;
 using FluentValidation;
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
 using Ordering.Application.Behaviors;
+using Ordering.Application.Discpatcher;
+using Ordering.Application.EventBusConsumer;
 using Ordering.Application.Mediator;
 using Ordering.Core.Repositories;
 using Ordering.Infrastructure.Data;
@@ -19,12 +23,23 @@ public static class ServiceCollectionExtensions
 
         services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
         services.AddScoped<IOrderRepository, OrderRepository>();
-
+        services.AddHostedService<OutboxMessageDiscpatcher>();
         services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         services.AddCustomMediator(con =>
         {
             con.AddBehavior(typeof(ValidationBehavior<,>))
                 .AddBehavior(typeof(LoggingBehavior<,>));
+        });
+        
+        //Masstransit 
+        services.AddMassTransit(cfg =>
+        {
+            cfg.AddConsumer<BasketOrderingConsumer>();
+            cfg.UsingRabbitMq((ctx, config) =>
+            {
+                config.Host(configuration["EventBusSettings:HostAddress"]);
+                config.ConfigureEndpoints(ctx);
+            });
         });
 
         return services;

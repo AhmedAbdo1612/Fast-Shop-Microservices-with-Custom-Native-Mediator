@@ -15,4 +15,10 @@ public class OrderRepository(OrderDbContext dbContext) : RepositoryBase<Order>(d
             .Where(x => x.UserName.ToLower() == userName.ToLower())
             .ToListAsync(cancellationToken);
     }
+
+    public async Task AddOutboxMessageAsync(OutboxMessage message, CancellationToken cancellationToken = default)
+    {
+        await  dbContext.OutboxMessages.AddAsync(message, cancellationToken);
+        await dbContext.SaveChangesAsync(cancellationToken);
+    }
 }

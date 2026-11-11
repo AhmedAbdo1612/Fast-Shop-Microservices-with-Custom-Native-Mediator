@@ -413,7 +413,7 @@
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[10.0.14, )"
+              "version": "[11.0.0, )"
             },
             "Npgsql": {
               "target": "Package",

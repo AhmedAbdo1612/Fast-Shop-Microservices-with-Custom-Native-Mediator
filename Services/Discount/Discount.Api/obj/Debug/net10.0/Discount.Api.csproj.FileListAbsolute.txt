@@ -66,3 +66,4 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.A
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Api\obj\Debug\net10.0\Discount.Api.pdb
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Api\obj\Debug\net10.0\Discount.Api.genruntimeconfig.cache
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Api\obj\Debug\net10.0\ref\Discount.Api.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Api\obj\Debug\net10.0\Discount.Api.sourcelink.json

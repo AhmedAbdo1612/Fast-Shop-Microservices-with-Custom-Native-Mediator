@@ -34,12 +34,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/acc1b77cc45c4a40776b82171fa4ec222605366a852c29d3fc53459da0e72d/Unit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f169554d304f29641dc6b4e4b922cc3814b7e13beefb42d498f9fbb26a97/RegistrationConfigurator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Instashop/Instashop/Services/Catalog/Catalog.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/valuecare-backend-VS/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/valuecare-backend-VS/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BuildingBlocks/EventBus.Messages/Common/EventBusConstant.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BuildingBlocks/EventBus.Messages/Events/BaseIntegrationEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BuildingBlocks/EventBus.Messages/Events/BasketCheckoutEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BuildingBlocks/EventBus.Messages/Events/OrderCreatedEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.Api/Controllers/BasketController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.Api/DependencyInjection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.Application/ApplicationLayerDependencyInjection.cs" root0="FORCE_HIGHLIGHTING" />
@@ -132,8 +134,11 @@
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Abstractions/IRequestHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Behaviors/LoggingBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Behaviors/ValidationBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Constants/OutboxMessageTypes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/DTOs/OrderDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Discpatcher/OutboxMessageDiscpatcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/EXceptions/OrderNotFoundException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/EventBusConsumer/BasketOrderingConsumer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Mappers/OrderMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Mediator/IPipelineBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Mediator/InMemoryMediator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -150,6 +155,8 @@
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Validation/ValidatorHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Core/Entities/EntityBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Core/Entities/Order.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Core/Entities/OrderStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Core/Entities/OutboxMessage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Core/Repositories/IAsyncRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Core/Repositories/IOrderRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/Data/OrderDbContext.cs" root0="FORCE_HIGHLIGHTING" />
@@ -172,15 +179,15 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Basket.Api: Basket.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.Basket.Api: Basket.executor&quot;: &quot;Debug&quot;,
     &quot;.NET Launch Settings Profile.Basket.Api: http.executor&quot;: &quot;Run&quot;,
     &quot;.NET Launch Settings Profile.Basket.Api: https.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Catalog.API: Catalog.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.Catalog.API: Catalog.executor&quot;: &quot;Debug&quot;,
     &quot;.NET Launch Settings Profile.Catalog.API: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Discount.Api: Discount.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.Discount.Api: Discount.executor&quot;: &quot;Debug&quot;,
     &quot;.NET Launch Settings Profile.Discount.Api: http.executor&quot;: &quot;Run&quot;,
     &quot;.NET Launch Settings Profile.Discount.Api: https.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Ordering.Api: Ordering.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.Ordering.Api: Ordering.executor&quot;: &quot;Debug&quot;,
     &quot;.NET Launch Settings Profile.Ordering.Api: https.executor&quot;: &quot;Run&quot;,
     &quot;Docker.compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -199,10 +206,12 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Basket.Api: Basket">
-    <configuration name="two services" type="CompoundRunConfigurationType">
+  <component name="RunManager" selected="Compound.all-services">
+    <configuration name="all-services" type="CompoundRunConfigurationType">
       <toRun name="Basket.Api: Basket" type="LaunchSettings" />
+      <toRun name="Catalog.API: Catalog" type="LaunchSettings" />
       <toRun name="Discount.Api: Discount" type="LaunchSettings" />
+      <toRun name="Ordering.Api: Ordering" type="LaunchSettings" />
       <method v="2" />
     </configuration>
     <configuration name="Basket.Api: Basket" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -541,7 +550,7 @@
       <item itemvalue=".NET Launch Settings Profile.Discount.Api: https" />
       <item itemvalue=".NET Launch Settings Profile.WebApplication1: http" />
       <item itemvalue=".NET Launch Settings Profile.WebApplication1: https" />
-      <item itemvalue="Compound.two services" />
+      <item itemvalue="Compound.all-services" />
       <item itemvalue="Docker.Basket.Api/Dockerfile" />
       <item itemvalue="Docker.Basket.Api/Dockerfile1" />
       <item itemvalue="Docker.Catalog.API/Dockerfile" />

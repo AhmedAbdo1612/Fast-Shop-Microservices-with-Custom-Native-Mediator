@@ -1,7 +1,10 @@
-﻿using Ordering.Application.DTOs;
+﻿using System.Text.Json;
+using EventBus.Messages.Events;
+using Ordering.Application.DTOs;
 using Ordering.Application.Orders.CreateOrder;
 using Ordering.Core.Entities;
 using Mapster;
+using Ordering.Application.Constants;
 using Ordering.Application.Orders.UpdateOrder;
 
 namespace Ordering.Application.Mappers;
@@ -43,5 +46,40 @@ public static class OrderMapper
         order.CardNumber = command.CardNumber;
         order.Cvv = command.Cvv;
     }
+
+    public static OutboxMessage MapToOutboxMessage(this Order order, Guid correlationId)
+    {
+        var outboxMessage = new OutboxMessage
+        {
+            CorrelationId = correlationId.ToString(),
+            Type = OutboxMessageTypes.OrderCreated,
+            OccurredOn = DateTime.UtcNow,
+            Content = JsonSerializer.Serialize(new
+            {
+                order.Id,
+                order.UserName,
+                order.TotalPrice,
+                order.FirstName,
+                order.LastName,
+                order.EmailAddress,
+                order.AddressLine,
+                order.Country,
+                order.State,
+                order.ZipCode,
+                order.CardName,
+                order.CardNumber,
+                order.Cvv,
+                order.PaymentMethodId,
+                order.Status
+            })
+        };
+        return outboxMessage;
+    }
+
+    public static CreateOrderCommand ToCheckoutOrderCommand(this BasketCheckoutEvent evt)
+    {
+        return evt.Adapt<CreateOrderCommand>();
+    }
+
     private static string SafeString(string? value) => value ?? string.Empty;
 }

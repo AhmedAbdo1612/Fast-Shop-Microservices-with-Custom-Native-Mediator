@@ -13,3 +13,4 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.A
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Application\obj\Debug\net10.0\refint\Discount.Application.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Application\obj\Debug\net10.0\Discount.Application.pdb
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Application\obj\Debug\net10.0\ref\Discount.Application.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Application\obj\Debug\net10.0\Discount.Application.sourcelink.json

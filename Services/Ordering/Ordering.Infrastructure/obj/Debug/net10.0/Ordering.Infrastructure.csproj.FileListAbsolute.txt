@@ -15,3 +15,4 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.I
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\Ordering.Infrastructure.csproj.AssemblyReference.cache
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\Ordering.7AF05425.Up2Date
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\Ordering.Infrastructure.genruntimeconfig.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\Ordering.Infrastructure.sourcelink.json

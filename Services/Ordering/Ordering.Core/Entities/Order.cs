@@ -17,4 +17,5 @@ public class Order : EntityBase
     public string? Cvv { get; set; }
     public int PaymentMethodId { get; set; }
     public int PaymentMethod { get; set; }
+    public OrderStatus Status { get; set; } = OrderStatus.Pending;
 }
