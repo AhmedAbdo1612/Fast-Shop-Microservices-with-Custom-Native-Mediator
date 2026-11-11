@@ -212,7 +212,7 @@ The following visuals provide a closer look at the main ideas behind the impleme
 </p>
 
 <p align="center">
-  <img src="assets/mediator-technical-deep-dive.png" alt="Custom Mediator Technical Deep Dive" width="100%" />
+  <img src="assets/Building%20a%20Custom%20.NET%20Mediator-3.png" alt="Custom Mediator Technical Deep Dive" width="100%" />
 </p>
 
 ---
