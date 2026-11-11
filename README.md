@@ -208,11 +208,11 @@ flowchart LR
 The following visuals provide a closer look at the main ideas behind the implementation.
 
 <p align="center">
-  <img src="assets/mediator-architecture.png" alt="Custom Mediator Architecture Overview" width="100%" />
+  <img src="assets/Custom%20Native%20Mediator%20Architecture%20Infographic-2.png" alt="Custom Mediator Architecture Overview" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/Building%20a%20Custom%20.NET%20Mediator-3.png" alt="Custom Mediator Technical Deep Dive" width="100%" />
+  <img src="assets/Custom%20Native%20Mediator%20in%20.NET-1.png" alt="Custom Mediator Technical Deep Dive" width="100%" />
 </p>
 
 ---
