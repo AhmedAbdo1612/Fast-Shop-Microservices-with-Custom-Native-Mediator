@@ -17,3 +17,4 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Infra
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Infrastructure\obj\Debug\net10.0\ref\Basket.Infrastructure.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Infrastructure\bin\Debug\net10.0\EventBus.Messages.dll
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Infrastructure\bin\Debug\net10.0\EventBus.Messages.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Infrastructure\obj\Debug\net10.0\Basket.Infrastructure.sourcelink.json
