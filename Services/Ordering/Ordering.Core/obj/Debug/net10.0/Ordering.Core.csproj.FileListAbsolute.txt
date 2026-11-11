@@ -1,0 +1,11 @@
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\bin\Debug\net10.0\Ordering.Core.deps.json
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\bin\Debug\net10.0\Ordering.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\bin\Debug\net10.0\Ordering.Core.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\obj\Debug\net10.0\Ordering.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\obj\Debug\net10.0\Ordering.Core.AssemblyInfoInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\obj\Debug\net10.0\Ordering.Core.AssemblyInfo.cs
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\obj\Debug\net10.0\Ordering.Core.csproj.CoreCompileInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\obj\Debug\net10.0\Ordering.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\obj\Debug\net10.0\refint\Ordering.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\obj\Debug\net10.0\Ordering.Core.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Core\obj\Debug\net10.0\ref\Ordering.Core.dll

@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Discount.Infrstructure/1.0.0": {
+        "dependencies": {
+          "Discount.Application": "1.0.0"
+        },
+        "runtime": {
+          "Discount.Infrstructure.dll": {}
+        }
+      },
+      "Discount.Application/1.0.0": {
+        "dependencies": {
+          "Discount.Core": "1.0.0"
+        },
+        "runtime": {
+          "Discount.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Discount.Core/1.0.0": {
+        "runtime": {
+          "Discount.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Discount.Infrstructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Discount.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Discount.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

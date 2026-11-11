@@ -1,0 +1,17 @@
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\bin\Debug\net10.0\Ordering.Infrastructure.deps.json
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\bin\Debug\net10.0\Ordering.Infrastructure.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\bin\Debug\net10.0\Ordering.Infrastructure.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\Ordering.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\Ordering.Infrastructure.AssemblyInfoInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\Ordering.Infrastructure.AssemblyInfo.cs
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\Ordering.Infrastructure.csproj.CoreCompileInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\Ordering.Infrastructure.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\refint\Ordering.Infrastructure.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\Ordering.Infrastructure.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\ref\Ordering.Infrastructure.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\bin\Debug\net10.0\Ordering.Infrastructure.runtimeconfig.json
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\bin\Debug\net10.0\Ordering.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\bin\Debug\net10.0\Ordering.Core.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\Ordering.Infrastructure.csproj.AssemblyReference.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\Ordering.7AF05425.Up2Date
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Infrastructure\obj\Debug\net10.0\Ordering.Infrastructure.genruntimeconfig.cache

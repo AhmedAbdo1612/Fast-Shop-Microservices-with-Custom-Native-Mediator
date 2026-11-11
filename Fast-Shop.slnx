@@ -1,0 +1,31 @@
+<Solution>
+  <Folder Name="/BuildingBlocks/">
+    <Project Path="BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj" />
+  </Folder>
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/Basket/">
+    <Project Path="Services/Basket/Basket.Api/Basket.Api.csproj" />
+    <Project Path="Services/Basket/Basket.Application/Basket.Application.csproj" />
+    <Project Path="Services/Basket/Basket.Core/Basket.Core.csproj" />
+    <Project Path="Services/Basket/Basket.Infrastructure/Basket.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Services/Catalog/">
+    <Project Path="Services/Catalog/Catalog.API/Catalog.API.csproj" />
+    <Project Path="Services/Catalog/Catalog.Application/Catalog.Application.csproj" />
+    <Project Path="Services/Catalog/Catalog.Core/Catalog.Core.csproj" />
+    <Project Path="Services/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Services/Discount/">
+    <Project Path="Services/Discount/Discount.Api/Discount.Api.csproj" />
+    <Project Path="Services/Discount/Discount.Application/Discount.Application.csproj" />
+    <Project Path="Services/Discount/Discount.Core/Discount.Core.csproj" />
+    <Project Path="Services/Discount/Discount.Infrastructure/Discount.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Services/Ordering/">
+    <Project Path="Services/Ordering/Ordering.Api/Ordering.Api.csproj" />
+    <Project Path="Services/Ordering/Ordering.Application/Ordering.Application.csproj" />
+    <Project Path="Services/Ordering/Ordering.Core/Ordering.Core.csproj" />
+    <Project Path="Services/Ordering/Ordering.Infrastructure/Ordering.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/" />
+</Solution>

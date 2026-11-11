@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Discount.Core\Discount.Core.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <Protobuf Include="Protos\discount.proto" GrpcServices="Server" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="12.2.0" />
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.2.0" />
+      <PackageReference Include="Grpc.AspNetCore" Version="2.85.0" />
+      <PackageReference Include="Grpc.Core" Version="2.46.6" />
+      <PackageReference Include="MediatR" Version="14.2.0" />
+    </ItemGroup>
+
+</Project>

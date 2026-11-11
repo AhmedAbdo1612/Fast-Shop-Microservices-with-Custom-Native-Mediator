@@ -1,0 +1,17 @@
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\bin\Debug\net10.0\Ordering.Application.deps.json
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\bin\Debug\net10.0\Ordering.Application.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\bin\Debug\net10.0\Ordering.Application.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\bin\Debug\net10.0\Ordering.Infrastructure.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\bin\Debug\net10.0\Ordering.Infrastructure.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\obj\Debug\net10.0\Ordering.Application.csproj.AssemblyReference.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\obj\Debug\net10.0\Ordering.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\obj\Debug\net10.0\Ordering.Application.AssemblyInfoInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\obj\Debug\net10.0\Ordering.Application.AssemblyInfo.cs
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\obj\Debug\net10.0\Ordering.Application.csproj.CoreCompileInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\obj\Debug\net10.0\Ordering.50CBBEA9.Up2Date
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\obj\Debug\net10.0\Ordering.Application.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\obj\Debug\net10.0\refint\Ordering.Application.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\obj\Debug\net10.0\Ordering.Application.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\obj\Debug\net10.0\ref\Ordering.Application.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\bin\Debug\net10.0\Ordering.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Ordering\Ordering.Application\bin\Debug\net10.0\Ordering.Core.pdb

@@ -1,0 +1,11 @@
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\bin\Debug\net10.0\EventBus.Messages.deps.json
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\bin\Debug\net10.0\EventBus.Messages.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\bin\Debug\net10.0\EventBus.Messages.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\obj\Debug\net10.0\EventBus.Messages.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\obj\Debug\net10.0\EventBus.Messages.AssemblyInfoInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\obj\Debug\net10.0\EventBus.Messages.AssemblyInfo.cs
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\obj\Debug\net10.0\EventBus.Messages.csproj.CoreCompileInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\obj\Debug\net10.0\EventBus.Messages.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\obj\Debug\net10.0\refint\EventBus.Messages.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\obj\Debug\net10.0\EventBus.Messages.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\BuildingBlocks\EventBus.Messages\obj\Debug\net10.0\ref\EventBus.Messages.dll

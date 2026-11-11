@@ -1,0 +1,74 @@
+﻿version: '3.4'
+
+services:
+  catalog.db:
+    image: mongo:latest
+    container_name: catalog.db
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  catalog.api:
+    image: catalog.api
+    container_name: catalog.api
+    build:
+      context: .
+      dockerfile: Services/Catalog/Catalog.API/Dockerfile
+    ports:
+      - "8000:8080"
+      - "5001:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - MongoDbSettings__ConnectionString=mongodb://catalog.db:27017
+      - MongoDbSettings__DatabaseName=CatalogDb
+      - MongoDbSettings__ProductCollectionName=Products
+      - MongoDbSettings__BrandCollectionName=Brands
+      - MongoDbSettings__TypeCollectionName=Types
+    depends_on:
+      - catalog.db
+
+  basket.api:
+    image: basket.api
+    container_name: basket.api
+    build:
+      context: .
+      dockerfile: Services/Basket/Basket.Api/Dockerfile
+    ports:
+      - "8001:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - CacheSettings__ConnectionString=basketcache:6379
+    depends_on:
+      - basketcache
+
+  basketcache:
+    image: redis:alpine
+    container_name: basketcache
+    restart: always
+    ports:
+      - "6380:6379"
+
+
+  discount.api:
+    image: discount.api
+    container_name: discount.api
+    build:
+      context: .
+      dockerfile: Services/Discount/Discount.Api/Dockerfile
+    ports:
+      - "8002:8080"
+      - "5003:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080;https://+:8081 
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Password123
+      - DatabaseSettings__ConnectionString=Server=host.docker.internal;Port=5432;Database=FastShop;Username=postgres;Password=123;
+    volumes:
+      - C:\Users\Ahmed\.aspnet\https:/https
+    
+
+volumes:
+  mongo_data:

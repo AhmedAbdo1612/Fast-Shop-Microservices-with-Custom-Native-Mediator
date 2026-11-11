@@ -1,0 +1,17 @@
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\bin\Debug\net10.0\Discount.Infrstructure.deps.json
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\bin\Debug\net10.0\Discount.Infrstructure.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\bin\Debug\net10.0\Discount.Infrstructure.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\bin\Debug\net10.0\Discount.Application.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\bin\Debug\net10.0\Discount.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\bin\Debug\net10.0\Discount.Application.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\bin\Debug\net10.0\Discount.Core.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\obj\Debug\net10.0\Discount.Infrstructure.csproj.AssemblyReference.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\obj\Debug\net10.0\Discount.Infrstructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\obj\Debug\net10.0\Discount.Infrstructure.AssemblyInfoInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\obj\Debug\net10.0\Discount.Infrstructure.AssemblyInfo.cs
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\obj\Debug\net10.0\Discount.Infrstructure.csproj.CoreCompileInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\obj\Debug\net10.0\Discount.751F44B0.Up2Date
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\obj\Debug\net10.0\Discount.Infrstructure.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\obj\Debug\net10.0\refint\Discount.Infrstructure.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\obj\Debug\net10.0\Discount.Infrstructure.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Infrstructure\obj\Debug\net10.0\ref\Discount.Infrstructure.dll

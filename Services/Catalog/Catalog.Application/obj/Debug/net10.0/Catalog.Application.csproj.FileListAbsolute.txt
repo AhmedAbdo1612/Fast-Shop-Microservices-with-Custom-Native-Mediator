@@ -1,0 +1,15 @@
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\bin\Debug\net10.0\Catalog.Application.deps.json
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\bin\Debug\net10.0\Catalog.Application.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\bin\Debug\net10.0\Catalog.Application.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\bin\Debug\net10.0\Catalog.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\bin\Debug\net10.0\Catalog.Core.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.csproj.AssemblyReference.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.AssemblyInfoInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.AssemblyInfo.cs
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.csproj.CoreCompileInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog..75771DFE.Up2Date
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\obj\Debug\net10.0\refint\Catalog.Application.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Catalog\Catalog.Application\obj\Debug\net10.0\ref\Catalog.Application.dll

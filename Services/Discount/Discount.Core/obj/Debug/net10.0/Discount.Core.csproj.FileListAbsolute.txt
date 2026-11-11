@@ -1,0 +1,11 @@
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Core\bin\Debug\net10.0\Discount.Core.deps.json
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Core\bin\Debug\net10.0\Discount.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Core\bin\Debug\net10.0\Discount.Core.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Core\obj\Debug\net10.0\Discount.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Core\obj\Debug\net10.0\Discount.Core.AssemblyInfoInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Core\obj\Debug\net10.0\Discount.Core.AssemblyInfo.cs
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Core\obj\Debug\net10.0\Discount.Core.csproj.CoreCompileInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Core\obj\Debug\net10.0\Discount.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Core\obj\Debug\net10.0\refint\Discount.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Core\obj\Debug\net10.0\Discount.Core.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Discount\Discount.Core\obj\Debug\net10.0\ref\Discount.Core.dll

@@ -1,0 +1,17 @@
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\bin\Debug\net10.0\Basket.Application.deps.json
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\bin\Debug\net10.0\Basket.Application.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\bin\Debug\net10.0\Basket.Application.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\bin\Debug\net10.0\Basket.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\bin\Debug\net10.0\Basket.Core.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\obj\Debug\net10.0\Basket.Application.csproj.AssemblyReference.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\obj\Debug\net10.0\Basket.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\obj\Debug\net10.0\Basket.Application.AssemblyInfoInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\obj\Debug\net10.0\Basket.Application.AssemblyInfo.cs
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\obj\Debug\net10.0\Basket.Application.csproj.CoreCompileInputs.cache
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\obj\Debug\net10.0\Basket.A.E41EB0DD.Up2Date
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\obj\Debug\net10.0\Basket.Application.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\obj\Debug\net10.0\refint\Basket.Application.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\obj\Debug\net10.0\Basket.Application.pdb
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\obj\Debug\net10.0\ref\Basket.Application.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\bin\Debug\net10.0\EventBus.Messages.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Application\bin\Debug\net10.0\EventBus.Messages.pdb

@@ -1,0 +1,480 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Discount.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.1.89",
+          "Discount.Application": "1.0.0",
+          "Grpc.AspNetCore": "2.85.0",
+          "Npgsql": "10.0.3",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.3"
+        },
+        "runtime": {
+          "Discount.Infrastructure.dll": {}
+        }
+      },
+      "Dapper/2.1.89": {
+        "runtime": {
+          "lib/net10.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.89.60231"
+          }
+        }
+      },
+      "FluentValidation/12.2.0": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.2.0.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/12.2.0": {
+        "dependencies": {
+          "FluentValidation": "12.2.0"
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.2.0.0"
+          }
+        }
+      },
+      "Google.Protobuf/3.36.2": {
+        "runtime": {
+          "lib/net8.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.36.2.0",
+            "fileVersion": "3.36.2.0"
+          }
+        }
+      },
+      "Grpc.AspNetCore/2.85.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.36.2",
+          "Grpc.AspNetCore.Server.ClientFactory": "2.85.0"
+        }
+      },
+      "Grpc.AspNetCore.Server/2.85.0": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.85.0"
+        },
+        "runtime": {
+          "lib/net10.0/Grpc.AspNetCore.Server.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.85.0.0"
+          }
+        }
+      },
+      "Grpc.AspNetCore.Server.ClientFactory/2.85.0": {
+        "dependencies": {
+          "Grpc.AspNetCore.Server": "2.85.0",
+          "Grpc.Net.ClientFactory": "2.85.0"
+        },
+        "runtime": {
+          "lib/net10.0/Grpc.AspNetCore.Server.ClientFactory.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.85.0.0"
+          }
+        }
+      },
+      "Grpc.Core/2.46.6": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.85.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.46.6.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libgrpc_csharp_ext.arm64.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libgrpc_csharp_ext.x64.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libgrpc_csharp_ext.x64.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/grpc_csharp_ext.x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/grpc_csharp_ext.x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.85.0": {
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.85.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Client/2.85.0": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.85.0"
+        },
+        "runtime": {
+          "lib/net10.0/Grpc.Net.Client.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.85.0.0"
+          }
+        }
+      },
+      "Grpc.Net.ClientFactory/2.85.0": {
+        "dependencies": {
+          "Grpc.Net.Client": "2.85.0"
+        },
+        "runtime": {
+          "lib/net10.0/Grpc.Net.ClientFactory.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.85.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.85.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.85.0"
+        },
+        "runtime": {
+          "lib/net10.0/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.85.0.0"
+          }
+        }
+      },
+      "MediatR/14.2.0": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.14.0"
+        },
+        "runtime": {
+          "lib/net10.0/MediatR.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "14.2.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/10.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.4"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "10.0.4.0",
+            "fileVersion": "10.0.426.12010"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/10.0.4": {
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "10.0.4.0",
+            "fileVersion": "10.0.426.12010"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/10.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.4"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "10.0.4.0",
+            "fileVersion": "10.0.426.12010"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/8.14.0": {
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "8.14.0.0",
+            "fileVersion": "8.14.0.60815"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/8.14.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.14.0"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "8.14.0.0",
+            "fileVersion": "8.14.0.60815"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/8.14.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "8.14.0"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "8.14.0.0",
+            "fileVersion": "8.14.0.60815"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/8.14.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "8.14.0"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "8.14.0.0",
+            "fileVersion": "8.14.0.60815"
+          }
+        }
+      },
+      "Npgsql/10.0.3": {
+        "runtime": {
+          "lib/net10.0/Npgsql.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.3.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.4",
+          "Npgsql": "10.0.3"
+        },
+        "runtime": {
+          "lib/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.3.0"
+          }
+        }
+      },
+      "Discount.Application/1.0.0": {
+        "dependencies": {
+          "Discount.Core": "1.0.0",
+          "FluentValidation": "12.2.0",
+          "FluentValidation.DependencyInjectionExtensions": "12.2.0",
+          "Grpc.AspNetCore": "2.85.0",
+          "Grpc.Core": "2.46.6",
+          "MediatR": "14.2.0"
+        },
+        "runtime": {
+          "Discount.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Discount.Core/1.0.0": {
+        "runtime": {
+          "Discount.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Discount.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper/2.1.89": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1VjFE664wnxvuhlgP8kS4PeFFF4jqD3VkbIHW6Zlc52zuibgcz5ICnIHcQXlTp6pURpPNGLV0ZpNe5x9KePJnA==",
+      "path": "dapper/2.1.89",
+      "hashPath": "dapper.2.1.89.nupkg.sha512"
+    },
+    "FluentValidation/12.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DR3lFbdnKucaaj1/8zMNOACMz/64igzox1yVZSFVsLxYB5mxAB+wFP1WZ8fjwrZnbU1KA1DoMzHKYKxUfuZ4wQ==",
+      "path": "fluentvalidation/12.2.0",
+      "hashPath": "fluentvalidation.12.2.0.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/12.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QpKXgiO9E6wXCh19X2Musn8MZM0xt7KQt/QrD6GDBn3MCUfy8a+rkhCzrYJNCfoxTsTRQ7bpKP8T3geTnJNNeQ==",
+      "path": "fluentvalidation.dependencyinjectionextensions/12.2.0",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.12.2.0.nupkg.sha512"
+    },
+    "Google.Protobuf/3.36.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ci1q1iJg74qAE5riTA2FbMS0wPbpruPQI/JQ9DrAsRo2VsSxgt1e/pmxGxgrci+pXJEgrSYg2vPl8rrStZkclQ==",
+      "path": "google.protobuf/3.36.2",
+      "hashPath": "google.protobuf.3.36.2.nupkg.sha512"
+    },
+    "Grpc.AspNetCore/2.85.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i+PHjG3+aYOVvGLWen0bUGzBaTbfwKtD6ri9DpHZHTOj/0QvK7UmN1q8MF2yZmV67gUHDfq2jIb4KgJBXzVaFw==",
+      "path": "grpc.aspnetcore/2.85.0",
+      "hashPath": "grpc.aspnetcore.2.85.0.nupkg.sha512"
+    },
+    "Grpc.AspNetCore.Server/2.85.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0ECGrMKizFFYCqgHP7SMcOmC0z3eCIRekExrgp9rPj6Lner+0ZyCTjiArJ6h5vfBV7W13D1ypPY2uwyTkBbnMg==",
+      "path": "grpc.aspnetcore.server/2.85.0",
+      "hashPath": "grpc.aspnetcore.server.2.85.0.nupkg.sha512"
+    },
+    "Grpc.AspNetCore.Server.ClientFactory/2.85.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9rVCh9l2JiGbAfdTHL4unLisUPLtpKpx13M8QgPqarAPWVYlF98my4v5TGnOnFnuSoUvHkq/ObD1sgwKsD4Kkg==",
+      "path": "grpc.aspnetcore.server.clientfactory/2.85.0",
+      "hashPath": "grpc.aspnetcore.server.clientfactory.2.85.0.nupkg.sha512"
+    },
+    "Grpc.Core/2.46.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZoRg3KmOJ2urTF4+u3H0b1Yv10xzz2Y/flFWS2tnRmj8dbKLeiJaSRqu4LOBD3ova90evqLkVZ85kUkC4JT4lw==",
+      "path": "grpc.core/2.46.6",
+      "hashPath": "grpc.core.2.46.6.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.85.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cpYu/nw/QhwHcRZMJbYD8lEllKrdwYMiDS4U3oH61nhYPUMNkcCcef4ulv11svHvTBThYV+ju332N9bCrfe7cQ==",
+      "path": "grpc.core.api/2.85.0",
+      "hashPath": "grpc.core.api.2.85.0.nupkg.sha512"
+    },
+    "Grpc.Net.Client/2.85.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BPMA5mb96ihVQfXTuIUpC1aie2I0ODBD6QCc0UXYS5zQMK6sJW5yck8NZ2ffvGHfOanWyn2Yg0tJbYY3nV+zIw==",
+      "path": "grpc.net.client/2.85.0",
+      "hashPath": "grpc.net.client.2.85.0.nupkg.sha512"
+    },
+    "Grpc.Net.ClientFactory/2.85.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JN5nbheButtbUO5kJ/h/JfOnSp5O6/Zf75n019BwC7e1oXfxPPwVolrr98SP4AGYwVDlrR0yn+X/Is2zwAeIzw==",
+      "path": "grpc.net.clientfactory/2.85.0",
+      "hashPath": "grpc.net.clientfactory.2.85.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.85.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e+RczhQVHb5MacI1oMTLMK6InZLH22POZcE4gsy5SnolsElLaqhSwEhqm+cF0m4Q1JGmlhjf1nbnKh7sBbjJVg==",
+      "path": "grpc.net.common/2.85.0",
+      "hashPath": "grpc.net.common.2.85.0.nupkg.sha512"
+    },
+    "MediatR/14.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1vqNVS6ijU0IF78vDfIE99pi0iTa+M/1ztRlM98P+KL+Loi/O4knaR2+ex0AqbT5xBl01VFryjuYUAFtvGwzOQ==",
+      "path": "mediatr/14.2.0",
+      "hashPath": "mediatr.14.2.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/10.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kzTsfFK2GCytp6DDTfQOmxPU4gbGdrIlP7PxrxF3ESNLtfXrC8BoUVZENBN2WORlZPAD7CVX6AYIglgkpXQooA==",
+      "path": "microsoft.entityframeworkcore/10.0.4",
+      "hashPath": "microsoft.entityframeworkcore.10.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/10.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qDcJqCfN1XYyX0ID/Hd9/kQTRvlia8S+Yuwyl9uFhBIKnOCbl9WMdGQCzbZUKbkpkfvf3P9CDdXsnxHyE3O0Aw==",
+      "path": "microsoft.entityframeworkcore.abstractions/10.0.4",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.10.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/10.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DOTjTHy93W3TwpMLM4SCm0n57Sc0Jj3+m2S6LSTstKyBB34eT1UouaMS19mpWwvtj42+sRiEjA3+rOTNoNzXFQ==",
+      "path": "microsoft.entityframeworkcore.relational/10.0.4",
+      "hashPath": "microsoft.entityframeworkcore.relational.10.0.4.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Abstractions/8.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iwbCpSjD3ehfTwBhtSNEtKPK0ICun6ov7Ibx6ISNA9bfwIyzI2Siwyi9eJFCJBwxowK9xcA1mj+jBWiigeqgcQ==",
+      "path": "microsoft.identitymodel.abstractions/8.14.0",
+      "hashPath": "microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/8.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4jOpiA4THdtpLyMdAb24dtj7+6GmvhOhxf5XHLYWmPKF8ApEnApal1UnJsKO4HxUWRXDA6C4WQVfYyqsRhpNpQ==",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.14.0",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/8.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eqqnemdW38CKZEHS6diA50BV94QICozDZEvSrsvN3SJXUFwVB9gy+/oz76gldP7nZliA16IglXjXTCTdmU/Ejg==",
+      "path": "microsoft.identitymodel.logging/8.14.0",
+      "hashPath": "microsoft.identitymodel.logging.8.14.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/8.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lKIZiBiGd36k02TCdMHp1KlNWisyIvQxcYJvIkz7P4gSQ9zi8dgh6S5Grj8NNG7HWYIPfQymGyoZ6JB5d1Lo1g==",
+      "path": "microsoft.identitymodel.tokens/8.14.0",
+      "hashPath": "microsoft.identitymodel.tokens.8.14.0.nupkg.sha512"
+    },
+    "Npgsql/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7nb5YzXuvWWJxB0J8DiyL3we+X4FOctZrt0fIBnucOIaIevFEEwGQVZKtiu9olXdlNAK1eNgqSral6r/jlhI4w==",
+      "path": "npgsql/10.0.3",
+      "hashPath": "npgsql.10.0.3.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IPGrrZnRkuW7OlHDhUESZz4G5DLkW7Nej/O3Cx+0iTsgyU5XJxBgpsvTHLloo3WWuAKKbDHXBvWPVkX1deRh1Q==",
+      "path": "npgsql.entityframeworkcore.postgresql/10.0.3",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512"
+    },
+    "Discount.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Discount.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="RD-262.10968.170">
+    <data-source name="@localhost" uuid="a78d66ae-8d31-4ea5-ac4d-6b667e9cbce5">
+      <database-info product="Mongo DB" version="9.0.4" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.24" dbms="MONGO" exact-version="9.0.4" exact-driver-version="1.24" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" negative="1" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="Postgress" uuid="b0b06194-bed5-45f8-b501-4a8a2c033e08">
+      <database-info product="PostgreSQL" version="18.6" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.7.13" dbms="POSTGRES" exact-version="18.6" exact-driver-version="42.7">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database">
+            <name qname="FastShop" />
+            <name qname="FastShopOrderDb" />
+            <node kind="schema" negative="1" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

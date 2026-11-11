@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MassTransit" Version="9.2.6" />
+        <PackageReference Include="MassTransit.RabbitMQ" Version="9.2.6" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.13"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.14">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Polly" Version="8.9.1" />
+        <PackageReference Include="Scrutor" Version="7.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="10.3.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\BuildingBlocks\EventBus.Messages\EventBus.Messages.csproj" />
+      <ProjectReference Include="..\Ordering.Application\Ordering.Application.csproj" />
+      <ProjectReference Include="..\Ordering.Infrastructure\Ordering.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
