@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using EventBus.Messages.Common;
+using EventBus.Messages.Events;
 using FluentValidation;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
@@ -30,15 +31,21 @@ public static class ServiceCollectionExtensions
             con.AddBehavior(typeof(ValidationBehavior<,>))
                 .AddBehavior(typeof(LoggingBehavior<,>));
         });
-        
+
         //Masstransit 
         services.AddMassTransit(cfg =>
         {
             cfg.AddConsumer<BasketOrderingConsumer>();
+            cfg.AddConsumer<PaymentCompletedConsumer>();
+            cfg.AddConsumer<PaymnetFailedConsumer>();
             cfg.UsingRabbitMq((ctx, config) =>
             {
                 config.Host(configuration["EventBusSettings:HostAddress"]);
                 config.ConfigureEndpoints(ctx);
+                config.ReceiveEndpoint(EventBusConstant.PaymentCompletedQueue,
+                    c => { c.ConfigureConsumer<PaymentCompletedConsumer>(ctx); });
+                config.ReceiveEndpoint(EventBusConstant.PaymentFailedQueue,
+                    c => { c.ConfigureConsumer<PaymnetFailedConsumer>(ctx); });
             });
         });
 

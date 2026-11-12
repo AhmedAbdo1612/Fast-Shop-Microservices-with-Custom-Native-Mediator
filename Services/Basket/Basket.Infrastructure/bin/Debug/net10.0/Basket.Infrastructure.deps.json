@@ -338,8 +338,19 @@
         }
       },
       "EventBus.Messages/1.0.0": {
+        "dependencies": {
+          "Ordering.Core": "1.0.0"
+        },
         "runtime": {
           "EventBus.Messages.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Ordering.Core/1.0.0": {
+        "runtime": {
+          "Ordering.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -567,6 +578,11 @@
       "sha512": ""
     },
     "EventBus.Messages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ordering.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

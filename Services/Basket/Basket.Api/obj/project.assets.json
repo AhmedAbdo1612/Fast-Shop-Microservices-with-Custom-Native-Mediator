@@ -523,11 +523,24 @@
       "EventBus.Messages/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Ordering.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/EventBus.Messages.dll": {}
         },
         "runtime": {
           "bin/placeholder/EventBus.Messages.dll": {}
+        }
+      },
+      "Ordering.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Ordering.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ordering.Core.dll": {}
         }
       }
     }
@@ -1499,6 +1512,11 @@
       "type": "project",
       "path": "../../../BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj",
       "msbuildProject": "../../../BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj"
+    },
+    "Ordering.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Ordering/Ordering.Core/Ordering.Core.csproj",
+      "msbuildProject": "../../Ordering/Ordering.Core/Ordering.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {

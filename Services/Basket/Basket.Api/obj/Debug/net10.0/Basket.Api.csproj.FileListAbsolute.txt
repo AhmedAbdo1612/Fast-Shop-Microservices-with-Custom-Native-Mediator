@@ -66,3 +66,5 @@ E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\o
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\obj\Debug\net10.0\Basket.Api.pdb
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\obj\Debug\net10.0\Basket.Api.genruntimeconfig.cache
 E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\obj\Debug\net10.0\ref\Basket.Api.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Ordering.Core.dll
+E:\CSharp-courses\MicroServices-ECommerce\Fast-Shop\Services\Basket\Basket.Api\bin\Debug\net10.0\Ordering.Core.pdb

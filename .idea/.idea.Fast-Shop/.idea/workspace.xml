@@ -16,6 +16,8 @@
     <projectFile profileName="Ordering">Services/Ordering/Ordering.Api/Ordering.Api.csproj</projectFile>
     <projectFile profileName="http">Services/Ordering/Ordering.Api/Ordering.Api.csproj</projectFile>
     <projectFile profileName="https">Services/Ordering/Ordering.Api/Ordering.Api.csproj</projectFile>
+    <projectFile profileName="http">Services/Payment/Payment.Api/Payment.Api.csproj</projectFile>
+    <projectFile profileName="https">Services/Payment/Payment.Api/Payment.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2aff653-1184-413d-b09b-c8a5eeacfae0" name="Changes" comment="" />
@@ -33,6 +35,7 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1fcbc3d9d2cb58d8855b381172b75b2aaaca1b032d1be47542ca1fbcc5aaab/RetryableReadOperationExecutor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/acc1b77cc45c4a40776b82171fa4ec222605366a852c29d3fc53459da0e72d/Unit.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f169554d304f29641dc6b4e4b922cc3814b7e13beefb42d498f9fbb26a97/RegistrationConfigurator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Instashop/Instashop/Services/Catalog/Catalog.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -42,6 +45,8 @@
     <setting file="file://$PROJECT_DIR$/BuildingBlocks/EventBus.Messages/Events/BaseIntegrationEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BuildingBlocks/EventBus.Messages/Events/BasketCheckoutEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BuildingBlocks/EventBus.Messages/Events/OrderCreatedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BuildingBlocks/EventBus.Messages/Events/PaymentCompletedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BuildingBlocks/EventBus.Messages/Events/PaymentFailedEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.Api/Controllers/BasketController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.Api/DependencyInjection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.Application/ApplicationLayerDependencyInjection.cs" root0="FORCE_HIGHLIGHTING" />
@@ -139,6 +144,8 @@
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Discpatcher/OutboxMessageDiscpatcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/EXceptions/OrderNotFoundException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/EventBusConsumer/BasketOrderingConsumer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/EventBusConsumer/PaymentCompletedConsumer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/EventBusConsumer/PaymnetFailedConsumer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Mappers/OrderMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Mediator/IPipelineBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Mediator/InMemoryMediator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -164,9 +171,10 @@
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/Data/OrderDbSeed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/Repositories/OrderRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/Repositories/RepositoryBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
@@ -177,41 +185,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Basket.Api: Basket.executor&quot;: &quot;Debug&quot;,
-    &quot;.NET Launch Settings Profile.Basket.Api: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Basket.Api: https.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Catalog.API: Catalog.executor&quot;: &quot;Debug&quot;,
-    &quot;.NET Launch Settings Profile.Catalog.API: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Discount.Api: Discount.executor&quot;: &quot;Debug&quot;,
-    &quot;.NET Launch Settings Profile.Discount.Api: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Discount.Api: https.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Ordering.Api: Ordering.executor&quot;: &quot;Debug&quot;,
-    &quot;.NET Launch Settings Profile.Ordering.Api: https.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Inspections-ASP.NET&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.38900203&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Basket.Api: Basket.executor": "Debug",
+    ".NET Launch Settings Profile.Basket.Api: http.executor": "Run",
+    ".NET Launch Settings Profile.Basket.Api: https.executor": "Run",
+    ".NET Launch Settings Profile.Catalog.API: Catalog.executor": "Debug",
+    ".NET Launch Settings Profile.Catalog.API: http.executor": "Run",
+    ".NET Launch Settings Profile.Discount.Api: Discount.executor": "Debug",
+    ".NET Launch Settings Profile.Discount.Api: http.executor": "Run",
+    ".NET Launch Settings Profile.Discount.Api: https.executor": "Run",
+    ".NET Launch Settings Profile.Ordering.Api: Ordering.executor": "Debug",
+    ".NET Launch Settings Profile.Ordering.Api: https.executor": "Run",
+    ".NET Launch Settings Profile.Payment.Api: https.executor": "Debug",
+    "Docker.compose.yaml: Compose Deployment.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cidr.known.project.marker": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "Inspections-ASP.NET",
+    "settings.editor.splitter.proportion": "0.38900203"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;,
-      &quot;mongo&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "mongo"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Compound.all-services">
     <configuration name="all-services" type="CompoundRunConfigurationType">
       <toRun name="Basket.Api: Basket" type="LaunchSettings" />
       <toRun name="Catalog.API: Catalog" type="LaunchSettings" />
       <toRun name="Discount.Api: Discount" type="LaunchSettings" />
       <toRun name="Ordering.Api: Ordering" type="LaunchSettings" />
+      <toRun name="Payment.Api: https" type="LaunchSettings" />
       <method v="2" />
     </configuration>
     <configuration name="Basket.Api: Basket" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -406,6 +416,38 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Payment.Api: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Services/Payment/Payment.Api/Payment.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Payment.Api: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Services/Payment/Payment.Api/Payment.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="WebApplication1: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Services/Discount/WebApplication1/WebApplication1.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
@@ -536,6 +578,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue=".NET Launch Settings Profile.Payment.Api: http" />
+      <item itemvalue=".NET Launch Settings Profile.Payment.Api: https" />
       <item itemvalue=".NET Launch Settings Profile.Ordering.Api: Ordering" />
       <item itemvalue=".NET Launch Settings Profile.Ordering.Api: http" />
       <item itemvalue=".NET Launch Settings Profile.Ordering.Api: https" />

@@ -1,8 +1,10 @@
-﻿namespace EventBus.Messages.Events;
+﻿using Ordering.Core.Entities;
+
+namespace EventBus.Messages.Events;
 
 public class OrderCreatedEvent:BaseIntegrationEvent
 {
-    public string Id {get;set;}
+    public int Id {get;set;}
     public string UserName {get;set;}
     public decimal TotalPrice {get;set;}
     public string FirstName {get;set;}
@@ -15,6 +17,6 @@ public class OrderCreatedEvent:BaseIntegrationEvent
     public string CardName {get;set;}
     public string CardNumber {get;set;}
     public string Cvv {get;set;}
-    public string PaymentMethodId {get;set;}
-    public string Status {get;set;}
+    public int PaymentMethodId {get;set;}
+    public OrderStatus Status {get;set;}
 }
